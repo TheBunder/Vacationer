@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Trip Details</title>
+    <style>
+        .btn-success:hover .material-icons {
+            animation: moveArrow 0.5s ease-in-out forwards;
+        }
+    
+        @keyframes moveArrow {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(-5px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+    <header>
+        <h1 class="trip-details">פרטי טיול</h1>
+        <img src="Images/walking.png" alt="Logo">
+    </header>
+   
+        <div class="row">
+            <!-- כרטיסיית טיול 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="Images/london.jpg" class="card-img-top" alt="Image of London">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">  לונדון</h5>
+                        <hr class="my-2">
+                        <p class="card-text text-right">
+                            <span class="material-icons">calendar_month</span>
+                            <strong>תאריך:</strong> 12/12/2024
+                        </p>
+                        <p class="card-text text-right">
+                            <span class="material-icons">access_time</span>
+                            <strong>שעה:</strong> 08:30
+                        </p>
+                        <hr class="my-4">
+                        <p class="card-text text-right">
+                            <span class="material-icons">place</span>
+                            <strong>מקום:</strong> לונדון
+                        </p>
+                        <p class="card-text text-right">
+                            <span class="material-icons">info</span>
+                            <strong>תיאור:</strong> סיור בלונדון
+                        </p>
+                        
+                        <hr class="my-4">
+                        <p class="card-text">
+                            <span class="material-icons">credit_card</span>
+                            <strong>עלות:</strong> 100 ש"ח
+                        </p>
+                        <button class="btn btn-success">
+                            למידע נוסף    <span class="material-icons">arrow_back_ios</span> 
+                        </button>
+                    </div>
+                </div>
+               
+
+
+
+                
+                
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="Images/tokyo.jpg" class="card-img-top" alt="Image of Tokyo">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">  טוקיו</h5>
+                        <p class="card-text"><strong>תאריך:</strong> 25/12/2024</p>
+                        <p class="card-text"><strong>שעה:</strong> 11:00</p>
+                        <p class="card-text"><strong>מקום:</strong> טוקיו</p>
+                        <p class="card-text"><strong>תיאור:</strong> סיור באתרים המודרניים והמסורתיים של טוקיו</p>
+                        <p class="card-text"><strong>עלות:</strong> 200 ש"ח</p>
+                        <button class="btn btn-success">הרשמה</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- כרטיסיית טיול 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="Images/cosomoi.jpg" class="card-img-top" alt="Image of cosomoi-Thailand">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">  קוסומוי</h5>
+                        <p class="card-text"><strong>תאריך:</strong> 15/12/2024</p>
+                        <p class="card-text"><strong>שעה:</strong> 09:00</p>
+                        <p class="card-text"><strong>מקום:</strong> קוסומוי</p>
+                        <p class="card-text"><strong>תיאור:</strong> מסאז על חוף הים בקוסומוי</p>
+                        <p class="card-text"><strong>עלות:</strong> 100 ש"ח</p>
+                        <button class="btn btn-success">הרשמה</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="Images/budapest.jpg" class="card-img-top" alt="Image of budapest">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> בודפשט</h5>
+                        <p class="card-text"><strong>תאריך:</strong> 19/12/2024</p>
+                        <p class="card-text"><strong>שעה:</strong> 14:00</p>
+                        <p class="card-text"><strong>מקום:</strong> בודפשט</p>
+                        <p class="card-text"><strong>תיאור:</strong> סיור בבודפשט</p>
+                        <p class="card-text"><strong>עלות:</strong> 100 ש"ח</p>
+                        <button class="btn btn-success">הרשמה</button>
+                    </div>
+                </div>
+            </div>
+        
+    
+    
+            <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="Images/madrid.jpg" class="card-img-top" alt="Image of Madrid">
+                <div class="card-body text-center">
+                    <h5 class="card-title">מדריד</h5>
+                    <p class="card-text"><strong>תאריך:</strong> 20/12/2024</p>
+                    <p class="card-text"><strong>שעה:</strong> 10:00</p>
+                    <p class="card-text"><strong>מקום:</strong> מדריד</p>
+                    <p class="card-text"><strong>תיאור:</strong> סיור באתרי התרבות וההיסטוריה של מדריד</p>
+                    <p class="card-text"><strong>עלות:</strong> 150 ש"ח</p>
+                    <button class="btn btn-success">הרשמה</button>
+                </div>
+            </div>
+        </div>
+        
+        
+
+    </main>
+<footer class="footer" role="contentinfo">
+    
+        <p class="text-center">&copy; Ben kadaner Daniel Guryan  </p>
+   
+ </footer> <!-- /footer --
+</footer>
+
+    <!-- קישור ל-JS של Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
